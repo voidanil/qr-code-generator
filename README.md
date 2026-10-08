@@ -11,7 +11,7 @@ A fast and simple QR code generator built with **Next.js** and **TypeScript**.
 
 ## 🚀 Try Demo
 
-👉 [Live Demo](https://voidanil.github.io/qr-code-generator/)
+👉 [Live Demo](https://qr-code-generator101.vercel.app/)
 
 ## 🛠️ Tech Stack
 
