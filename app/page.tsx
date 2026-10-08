@@ -9,12 +9,15 @@ export default function Home() {
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-5xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <div className="flex flex-row flex-1 items-center justify-center gap-8 w-full">
-          <section className="flex flex-col gap-4 flex-1 border-r-2 border-gray-300 p-4 pr-8">
+      <main className="flex flex-1 w-full max-w-5xl flex-col items-center justify-between py-32 px-8 md:px-16 bg-white dark:bg-black sm:items-start">
+        <div className="flex  flex-col-reverse md:flex-row flex-1 items-center justify-center gap-8 w-full">
+          <section className="flex flex-col gap-4 flex-1 md:border-r-2 md:border-gray-300 p-4 md:pr-8">
             <div>
-              <label className="font-bold">QR Name</label>
+              <label className="font-bold" htmlFor="qrName">
+                QR Name
+              </label>
               <input
+                id="qrName"
                 name="qrName"
                 className="border border-gray-300 rounded-lg p-2 w-full"
                 type="text"
